@@ -34,7 +34,7 @@ export const Signin = () => {
         <img src={theme == 'dark' ? lightlogo : darklogo} className="w-full h-full" alt="logo" />
       </div>
       <div>
-        <div className="text-2xl font-bold text-high-emphasis">{t('LOG_IN')} in your website</div>
+        <div className="text-2xl font-bold text-high-emphasis">Hello! {t('LOG_IN')} your website</div>
         <div className="flex items-center gap-1 mt-1">
           <span className="text-sm font-normal text-medium-emphasis">{t('DONT_HAVE_ACCOUNT')}</span>
           <Link
